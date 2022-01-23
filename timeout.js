@@ -11,3 +11,15 @@ setTimeout(reportDelay , 1000);
 
 console.log('Hello! I am the first sync statement');
 console.log('Hello! I am the second sync tatement');
+
+/*
+//BROSWER CODE. FOR EXPLANATION PURPOSES
+
+var button = document.querySelector('button');
+button.addEventListener('click', doSomethingWithButton);
+
+// Imagine a world without events and event loop:
+while (true) {
+  if (hearClick) break; //not gonna work
+}
+*/
